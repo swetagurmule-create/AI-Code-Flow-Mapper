@@ -1,9 +1,3 @@
-from backend.analyzer import analyze_code
-from backend.java_analyzer import analyze_java
-from backend.c_analyzer import analyze_c
-from backend.cpp_analyzer import analyze_cpp
-from backend.chatbot import get_ai_response
-from backend.pdf_generator import generate_pdf
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
