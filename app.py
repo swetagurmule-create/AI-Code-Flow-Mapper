@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+import streamlit as st
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
